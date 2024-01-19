@@ -1,8 +1,8 @@
-let THREECAMERA = null;
+let THREECAMERA;
 
 
 // callback: launched if a face is detected or lost.
-function detect_callback(faceIndex, isDetected) {
+function detect_callback(isDetected) {
   if (isDetected) {
     console.log('INFO in detect_callback(): DETECTED');
   } else {
@@ -25,7 +25,7 @@ function init_threeScene(spec) {
       // we create our Hat material
       const mat = new THREE.MeshBasicMaterial({
         // load the texture using a TextureLoader
-        map: new THREE.TextureLoader().load(“models/Texture.jpg”)
+        map: new THREE.TextureLoader().load("models/Texture.jpg")
       });
       // and finally create our mesh
       const hatMesh = new THREE.Mesh(geometry, mat)
@@ -68,7 +68,7 @@ function init_faceFilter(videoSettings){
     followZRot: true,
     canvasId: 'jeeFaceFilterCanvas',
     NNCPath: '../../../neuralNets/', // root of NN_DEFAULT.json file
-    maxFacesDetected: 1,
+    videoSettings: videoSettings,
     callbackReady: function(errCode, spec){
       if (errCode){
         console.log('AN ERROR HAPPENS. ERR =', errCode);
