@@ -5,7 +5,7 @@
   "bugs": {
     "url": "https://github.com/jeeliz/jeelizFaceFilter/issues"
   },
-  "bundleDependencies": false,
+  "bundleDependencies": [],
   "deprecated": false,
   "description": "Face detection and tracking from webcam video feed. Build your own Snapchat like face filters. Robust to all lighting conditions and works with various 3D engines and browser APIs like Babylon.JS, Three.JS, Canvas2D or CSS3D.",
   "homepage": "https://jeeliz.github.io/jeelizFaceFilter/",
@@ -31,5 +31,9 @@
   },
   "devDependencies": {
     "local-web-server": "^4.2.1"
+  },
+  "dependencies": {
+    "three": "^0.160.0",
+    "three-gltf-loader": "^1.111.0"
   }
 }

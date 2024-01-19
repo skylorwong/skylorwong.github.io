@@ -1,5 +1,7 @@
 let THREECAMERA;
 
+// import * as THREE from 'three';
+// import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
 
 // callback: launched if a face is detected or lost.
 function detect_callback(isDetected) {
@@ -15,12 +17,12 @@ function detect_callback(isDetected) {
 function init_threeScene(spec) {
   const threeStuffs = JeelizThreeHelper.init(spec, detect_callback);
 
-  // Create the BufferGeometryLoader for our hat
-  const loader = new THREE.BufferGeometryLoader()
+  // Create the JSONLoader for our hat:
+  const loader = new THREE.ObjectLoader();
 
   // Load our cool hat
   loader.load(
-    'models/luffys_hat.json',
+    'models/luffys_hat.glb',
     function (geometry, materials) {
       // we create our Hat material
       const mat = new THREE.MeshBasicMaterial({
@@ -62,10 +64,10 @@ function main(){
   })
 }
 
-
+// function with parameter videoSettings (called by main)
 function init_faceFilter(videoSettings){
+  // JEELIZFACEFILTER is an object with a function?
   JEELIZFACEFILTER.init({
-    followZRot: true,
     canvasId: 'jeeFaceFilterCanvas',
     NNCPath: '../../../neuralNets/', // root of NN_DEFAULT.json file
     videoSettings: videoSettings,

@@ -1,0 +1,11 @@
+Model Information:
+* title:	Football Helmet
+* source:	https://sketchfab.com/3d-models/football-helmet-511c9263ce4f406cb3c144d3a12cb51f
+* author:	Saidrax (https://sketchfab.com/Saidrax)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Football Helmet" (https://sketchfab.com/3d-models/football-helmet-511c9263ce4f406cb3c144d3a12cb51f) by Saidrax (https://sketchfab.com/Saidrax) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

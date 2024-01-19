@@ -1,0 +1,11 @@
+Model Information:
+* title:	Creative Commons Cap
+* source:	https://sketchfab.com/3d-models/creative-commons-cap-866ae6c021b84a579ea0b5015a2c7b2d
+* author:	ra_fuq (https://sketchfab.com/nevidaes)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Creative Commons Cap" (https://sketchfab.com/3d-models/creative-commons-cap-866ae6c021b84a579ea0b5015a2c7b2d) by ra_fuq (https://sketchfab.com/nevidaes) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
